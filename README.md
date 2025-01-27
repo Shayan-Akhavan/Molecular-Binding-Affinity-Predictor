@@ -16,6 +16,7 @@ A deep learning model that predicts molecular binding affinities using Graph Neu
 - [Usage](#-usage)
 - [Model Architecture](#model-architecture)
 - [Evaluation](#-evaluation)
+- [References](#references)
 
 
 ## ✨ Features
@@ -127,7 +128,7 @@ analyze_predictions(smiles_list, predictions, actuals)
 
 3. Rube HT, Rastogi C, Feng S, Kribelbauer JF, Li A, Becerra B, Melo LAN, Do BV, Li X, Adam HH, Shah NH, Mann RS, Bussemaker HJ. Prediction of protein-ligand binding affinity from sequencing data with interpretable machine learning. Nat Biotechnol. 2022 Oct;40(10):1520-1527. doi: 10.1038/s41587-022-01307-0. Epub 2022 May 23. PMID: 35606422; PMCID: PMC9546773.
 
-### Areas for Improvement
+## Areas for Improvement
 - Additional molecular features
 - Alternative GNN architectures
 - Extended chemical analysis
