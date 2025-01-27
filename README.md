@@ -16,9 +16,7 @@ A deep learning model that predicts molecular binding affinities using Graph Neu
 - [Usage](#-usage)
 - [Model Architecture](#-model-architecture)
 - [Evaluation](#-evaluation)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Citation](#-citation)
+
 
 ## ✨ Features
 
