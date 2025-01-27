@@ -14,6 +14,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
 import seaborn as sns
+sns.set_theme()
 
 class MolecularGraphDataset(Dataset):
     def __init__(self, smiles_list, targets):
@@ -279,12 +280,11 @@ def analyze_structure(smiles):
 
 def visualize_results(predictions, actuals):
     """Create visualization of predictions vs actuals"""
-    import matplotlib.pyplot as plt
-    import seaborn as sns
     
     # Set the style for better visualization
-    plt.style.use('seaborn')
-    
+    #plt.style.use('seaborn')
+    plt.style.use('seaborn-v0_8')
+
     # Create a figure with two subplots side by side
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(15, 6))
     
