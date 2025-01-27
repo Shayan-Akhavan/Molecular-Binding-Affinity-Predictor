@@ -119,6 +119,14 @@ visualize_results(predictions, actuals)
 analyze_predictions(smiles_list, predictions, actuals)
 ```
 
+## References
+
+1. Aman, L. O. (2024). Prediction of Binding Affinity for ErbB Inhibitors Using Deep Neural Network Model with Morgan Fingerprints as Features. Department of Pharmacy, Faculty of Sport and Health, Universitas Negeri Gorontalo, Gorontalo, Indonesia. Correspondence: laode_aman@ung.ac.id
+
+2. National Center for Biotechnology Information (2025). PubChem Bioassay Record for AID 320960, Inhibition of EGFR, Source: ChEMBL. Retrieved January 27, 2025 from https://pubchem.ncbi.nlm.nih.gov/bioassay/320960.
+
+3. Rube HT, Rastogi C, Feng S, Kribelbauer JF, Li A, Becerra B, Melo LAN, Do BV, Li X, Adam HH, Shah NH, Mann RS, Bussemaker HJ. Prediction of protein-ligand binding affinity from sequencing data with interpretable machine learning. Nat Biotechnol. 2022 Oct;40(10):1520-1527. doi: 10.1038/s41587-022-01307-0. Epub 2022 May 23. PMID: 35606422; PMCID: PMC9546773.
+
 ### Areas for Improvement
 - Additional molecular features
 - Alternative GNN architectures
