@@ -80,9 +80,9 @@ from predictor import MolecularGraphDataset
 # Prepare your data with 'smiles' and 'activity' columns
 dataset = MolecularGraphDataset(df['smiles'].values, df['pActivity'].values)
 ```
-
-## 🏗️ Model Architecture
-
+  
+## 🏗️ Model Architecture  
+  
 ### Components
 - **Input Layer**: Molecular graph representation
   - Nodes: Atoms (atomic number, degree, charge, etc.)
