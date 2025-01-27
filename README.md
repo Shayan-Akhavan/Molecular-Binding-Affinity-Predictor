@@ -4,7 +4,7 @@
 [![RDKit](https://img.shields.io/badge/RDKit-2021.03-green.svg)](https://www.rdkit.org/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-A deep learning model that predicts molecular binding affinities using Graph Neural Networks (GNNs) with a range-aware architecture.  
+A deep learning model that predicts molecular binding affinities using Graph Neural Networks (GNNs) with a range-aware architecture. This project specifically focuses on predicting IC50 values for protein-ligand interactions using data from the ChEMBL database.  
 
 ![Image](https://github.com/user-attachments/assets/91e18384-4897-41c5-b639-ac007c07f2b9)
 
