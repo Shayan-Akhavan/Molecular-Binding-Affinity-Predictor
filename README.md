@@ -6,7 +6,7 @@
 
 A deep learning model that predicts molecular binding affinities using Graph Neural Networks (GNNs) with a range-aware architecture.  
 
-![Image](https://github.com/user-attachments/assets/3af31b8e-3e32-4d26-b7fc-9d64d0bac1d9)
+![Image](https://github.com/user-attachments/assets/91e18384-4897-41c5-b639-ac007c07f2b9)
 
 
 
