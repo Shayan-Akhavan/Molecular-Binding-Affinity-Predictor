@@ -14,7 +14,7 @@ A deep learning model that predicts molecular binding affinities using Graph Neu
 - [Features](#-features)
 - [Installation](#-installation)
 - [Usage](#-usage)
-- [Model Architecture](#-model-architecture)
+- [Model Architecture](#model-architecture)
 - [Evaluation](#-evaluation)
 
 
@@ -81,7 +81,7 @@ from predictor import MolecularGraphDataset
 dataset = MolecularGraphDataset(df['smiles'].values, df['pActivity'].values)
 ```
   
-## 🏗️ Model Architecture  
+## Model Architecture  
   
 ### Components
 - **Input Layer**: Molecular graph representation
