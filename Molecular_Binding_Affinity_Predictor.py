@@ -377,7 +377,7 @@ if __name__ == "__main__":
             print(f'  Test MAE: {test_metrics["mae"]:.4f}')
     
     # Load best model and evaluate
-    model.load_state_dict(torch.load('best_model.pt'))
+    model.load_state_dict(torch.load('best_model.pt', weights_only=True))
     final_metrics = evaluate_range_aware_model(model, test_loader, criterion, device)
     
     print("\nFinal Model Performance:")
