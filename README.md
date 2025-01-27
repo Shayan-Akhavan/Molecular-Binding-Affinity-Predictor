@@ -33,8 +33,8 @@ A deep learning model that predicts molecular binding affinities using Graph Neu
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/molecular-binding-predictor.git
-cd molecular-binding-predictor
+gh repo clone Shayan-Akhavan/molecular-binding-affinity-predictor
+cd molecular-binding-affinity-predictor
 
 # Create a virtual environment (optional but recommended)
 python -m venv venv
